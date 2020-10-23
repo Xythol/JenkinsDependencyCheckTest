@@ -3,7 +3,7 @@ pipeline {
 	stages {
 		stage('Checkout SCM') {
 			steps {
-				git changelog: false, credentialsId: '393a4939-9ce6-4dec-a270-f19cabdb93e4', poll: false, url: 'https://github.com/SIT-ICT3x03/Team-009.git'
+				git changelog: false, credentialsId: '393a4939-9ce6-4dec-a270-f19cabdb93e4', poll: false, url: 'https://github.com/Xythol/JenkinsDependencyCheckTest.git'
 			}
 		}
 
